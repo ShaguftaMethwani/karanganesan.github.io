@@ -23,6 +23,8 @@
   <link rel="stylesheet" href="assets/social-feed-plugin/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+
 
 <body>
 <section class="mbr-section mbr-section-hero mbr-section-full mbr-parallax-background mbr-section-with-arrow" id="header1-0" style="background-image: url(assets/images/15128906-674470496060727-1248767439758927594-o-2000x1047-10.jpg);">
@@ -57,7 +59,11 @@
         </div>
     </div>
 </section>
-
+    <a-scene embedded>
+      <a-box color="#6173F4" opacity="0.8" depth="2"></a-box>
+      <a-sphere radius="2" src="texture.png" position="1 1 0"></a-sphere>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
 <section class="mbr-cards mbr-section mbr-section-nopadding" id="features2-1" style="background-color: rgb(255, 255, 255);">
 
         
